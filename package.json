@@ -1,0 +1,23 @@
+{
+	"author": "David Goehrig",
+	"name": "opifex.filter.twitter",
+	"license" : "MIT",
+	"description": "Filters Tweets into something more useable",
+	"version": "0.0.1",
+	"repository": {
+		"url": "http://github.com/cthulhuology/opifex.filter.twitter"
+	},
+	"main": "./lib/Filter.Twitter.coffee",
+	"bin": {
+		"twitter-filter" : "./bin/twitter-filter" 
+	},
+	"dependencies": {
+		"opifex" : ">=0.0.8"
+	},
+	"devDependencies": {},
+	"optionalDependencies": {},
+	"engines": {
+		"node": ">=0.10.0"
+	}
+}
+
